@@ -5,6 +5,7 @@ terraform {
   required_providers {
     apstra = {
       source = "Juniper/apstra"
+      url = "https://13.37.222.29:21809/"
     }
   }
 }
