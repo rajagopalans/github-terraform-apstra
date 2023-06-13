@@ -28,6 +28,5 @@ output "apstra_property_set_report" {
   value = {for k, v in data.apstra_property_set.each_ps : k => {
     name = v.name
     data = jsondecode(v.data)
-    blueprints = v.blueprints
   }}
 }
