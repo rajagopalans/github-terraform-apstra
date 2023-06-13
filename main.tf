@@ -33,7 +33,7 @@ locals {
   })
 }
 resource "apstra_property_set" "r" {
-  name = "TF Property Set 1234567"
+  name = "TF Property Set 1234"
   data = local.payload
 }
 # Output the property set report
